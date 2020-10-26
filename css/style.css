@@ -89,6 +89,7 @@
       .bg_grey p {
         background-color: #EEF0ED;
         text-align: left;
+        line-height: 16px;
         border-radius:15px;
         font-size: 1.1rem;
         padding: 10px 15px;
@@ -119,7 +120,7 @@
           padding: 30px 60px;
       }
 
-      .bg_yellow > div {
+      .bg_yellow > div >div {
         margin-top: 20px;
     }
 
@@ -139,7 +140,7 @@
       }
 
       .heart {
-        margin: 30px 20px 0;
+        margin: 50px 20px 0;
     }
 
       .heart img {
@@ -157,6 +158,7 @@
           background-color: #EEF0ED;
           text-align: left;
           border-radius:15px;
+          line-height: 16px;
           font-size: 1.1rem;
           padding: 10px 15px;
       }
@@ -172,7 +174,7 @@
 
       ul li {
           display: flex;
-          margin-top: 20px;
+          margin-top: 40px;
       }
 
       ul li img {
@@ -182,6 +184,7 @@
 
       ul li p {
           text-align: left;
+          line-height: 16px;
       }
 
       .under_red5,.under_red6 {
@@ -189,16 +192,17 @@
       }
 
       .form {
-          margin: 0 20px;
+          margin: 40px 20px;
       }
 
       .form > p {
           margin-top: 20px;
           text-align: left;
+          line-height: 16px;
       }
 
       .form form input {
-          margin-top: 20px;
+          margin-top: 40px;
           width: 100%;
           height: 80px;
           border-radius: 13px;
@@ -221,6 +225,8 @@
 
       footer {
         background-color: #EEF0ED;
+        margin: 0 calc(50% - 50vw);
+        width: 100vw;
         height: 100px;
         margin-top: 30px;
         padding-top: 20px;
