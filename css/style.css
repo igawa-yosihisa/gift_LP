@@ -137,6 +137,7 @@
 
       .bg_yellow div div div p {
           text-align: left;
+          line-height: 16px;
       }
 
       .heart {
@@ -263,6 +264,10 @@
             left: calc(10 / 1250 * 100vw);
           }
 
+          .border_red p {
+              line-height: 22px;
+          }
+
         .border_red img {
             padding: 50px 100px;
         }
@@ -274,10 +279,20 @@
 
         .bg_grey p {
             font-size: 1.4rem;
+            line-height: 22px;
         }
+
+
+      .bg_yellow div div div p {
+        line-height: 22px;
+    }
 
         li {
             margin-top: 20px;
+        }
+
+        ul li p {
+            line-height: 22px;
         }
 
         .heart img {
@@ -292,8 +307,16 @@
 
          .heart p {
              font-size: 1.3rem;
+             line-height: 22px;
+         }
+
+         .form > p {
+             line-height: 22px;
          }
       }
+
+
+
 
       @media (min-width: 750px) {
         body {
@@ -330,6 +353,10 @@
             padding: 50px 100px;
         }
 
+        .border_red p {
+            line-height: 25px;
+        }
+
         .bg_grey img {
             width: 25px;
             height: 25px;
@@ -337,10 +364,19 @@
 
         .bg_grey p {
             font-size: 1.8rem;
+            line-height: 25px;
+        }
+
+        .bg_yellow div div div p {
+            line-height: 25px;
         }
 
         li {
             margin-top: 20px;
+        }
+
+        ul li p {
+            line-height: 25px;
         }
 
         .heart img {
@@ -355,7 +391,12 @@
 
          .heart p {
              font-size: 1.8rem;
+             line-height: 25px;
          }
+
+         .form > p {
+            line-height: 25px;
+        }
       }
  
       @media (min-width:1200px) {
@@ -433,7 +474,7 @@
 
         .border_red p {
            padding: 40px 10px;
-           line-height: 25px;
+           line-height: 28px;
        }
 
         .border_red img {
@@ -453,12 +494,16 @@
 
         .bg_grey p {
             font-size: 2.4rem;
-            line-height: 30px;
+            line-height: 28px;
             padding: 20px 30px;
         }
 
         li {
             margin-top: 20px;
+        }
+
+        ul li p {
+            line-height: 28px;
         }
 
         .heart {
@@ -477,7 +522,7 @@
 
          .heart p {
              font-size: 1.8rem;
-             line-height: 25px;
+             line-height: 28px;
          }
 
          .col {
@@ -501,23 +546,28 @@
 
          .bg_yellow div div div p {
             text-align: left;
+            line-height: 28px;
         }
         
         .border_red2 p {
             padding: 70px 20px;
-            line-height: 30px;
+            line-height: 28px;
         }
 
         ul {
             margin: 30px 200px;
         }
 
-        li p {
-            line-height: 30px;
+        ul li p {
+            line-height: 28px;
         }
 
         .form {
             margin: 50px 200px;
+        }
+
+        .form > p {
+            line-height: 28px;
         }
 
         .form input {
