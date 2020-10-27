@@ -90,6 +90,7 @@ p {
     background-color: #EEF0ED;
     text-align: left;
     border-radius:15px;
+    line-height: 16px;
     font-size: 1.1rem;
     padding: 10px 15px;
   }
@@ -119,10 +120,6 @@ p {
       padding: 30px 60px;
   }
 
-  .bg_yellow > div {
-    margin-top: 20px;
-}
-
 .bg_yellow_heart {
     width: 25px;
     height: 25px;
@@ -134,8 +131,13 @@ p {
       height: auto;
   }
 
+  .bg_yellow > div > div {
+      margin-top: 20px;
+  }
+
   .bg_yellow div div div p {
       text-align: left;
+      line-height: 16px;
   }
 
   .heart {
@@ -148,8 +150,8 @@ p {
       width: 30px;
       height: 30px;
       z-index: 2;
-      margin-top: -20px;
-      margin-left: 10px;
+      margin-top: -10px;
+      margin-left: 9px;
   }
 
   .heart p {
@@ -157,8 +159,10 @@ p {
       background-color: #EEF0ED;
       text-align: left;
       border-radius:15px;
+      line-height: 16px;
       font-size: 1.1rem;
       padding: 10px 15px;
+      margin-top: 20px;
   }
 
   .price {
@@ -167,7 +171,7 @@ p {
   }
 
   ul {
-      margin: 0 20px;
+      margin: 0 25px;
   }
 
   ul li {
@@ -182,6 +186,7 @@ p {
 
   ul li p {
       text-align: left;
+      line-height: 16px;
   }
 
   .under_red5,.under_red6 {
@@ -194,6 +199,7 @@ p {
 
   .form > p {
       margin-top: 20px;
+      line-height: 16px;
       text-align: left;
   }
 
